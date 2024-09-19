@@ -1,9 +1,10 @@
-📊 YouTube Trending Analysis
+#📊 YouTube Trending Analysis
+
 Welcome to the YouTube Trending Analysis project! This project explores trends in YouTube videos using data visualization techniques to gain insights into popular content. The dataset used includes various metrics like views, likes, dislikes, and more for YouTube videos. In this project, we analyze video titles, visual patterns, and other numerical attributes to uncover what drives video popularity.
 
 
 
-🧰 Libraries & Dependencies
+#🧰 Libraries & Dependencies
 Before we begin, let's import the essential libraries used in the project.
 
 python
@@ -21,7 +22,7 @@ import wordcloud
 import json
 We use libraries like pandas, seaborn, matplotlib, and wordcloud for data analysis and visualization, which allow us to create beautiful visual insights.
 
-📂 Dataset
+#📂 Dataset
 The dataset used in this analysis is the US_videos.csv file containing trending YouTube videos. We handle missing data and enhance the dataset for better visualizations by applying configurations to the plots for improved aesthetics.
 
 python
@@ -99,7 +100,7 @@ plt.imshow(wc, interpolation='bilinear')
 plt.axis("off")
 plt.show()
 
-💡 Key Insights
+#💡 Key Insights
 Capitalized Titles: Video titles with capitalized words might influence viewer attention.
 Title Length: Short and concise titles tend to perform better.
 Feature Correlations: There are interesting correlations between various numerical features, such as views and likes.
@@ -118,8 +119,8 @@ bash
 Copy code
 python analysis.py
 
-🤝 Contributing
+#🤝 Contributing
 We welcome contributions! Feel free to submit issues, fork the repo, and make pull requests. Let’s build together!
 
-🌟 Acknowledgments
+#🌟 Acknowledgments
 Special thanks to the open-source community for providing wonderful tools like pandas, seaborn, and matplotlib that make data visualization beautiful.
